@@ -1,0 +1,128 @@
+{
+    "name": "Accenture",
+    "description": "Accenture is a global management consulting and professional services firm that provides strategy, consulting, digital, technology and operations services.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/2624-accenture-labs.jpg",
+    "tags": [
+        "agencies",
+        "ai",
+        "banking",
+        "blockchain",
+        "cloud",
+        "consulting",
+        "financing",
+        "gdpr",
+        "have api",
+        "have swagger",
+        "isp",
+        "profile"
+    ],
+    "created": "2019-12-18",
+    "modified": "2019-12-18",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/accenture\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "HRIMMCWebApi",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/2624-accenture-labs.jpg",
+            "humanURL": "http:\/\/accenture.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/hrimmcwebapi-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/hrimmcwebapi.json"
+                }
+            ]
+        },
+        {
+            "name": "Accenture Labs",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/2624-accenture-labs.jpg",
+            "humanURL": "http:\/\/accenture.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/accenture-labs-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/accenture-labs.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "About",
+            "url": "https:\/\/www.accenture.com\/us-en\/about\/company-index"
+        },
+        {
+            "type": "Contact Form",
+            "url": "https:\/\/www.accenture.com\/us-en\/contact-us"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/accenture-technology-klabs"
+        },
+        {
+            "type": "Email",
+            "url": "investor.relations@accenture.com"
+        },
+        {
+            "type": "Email",
+            "url": "websitedataprivacy@accenture.com"
+        },
+        {
+            "type": "Email",
+            "url": "dataprivacyofficer@accenture.com"
+        },
+        {
+            "type": "Facebook",
+            "url": "https:\/\/www.facebook.com\/accenture"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/Accenture"
+        },
+        {
+            "type": "Linkedin",
+            "url": "https:\/\/www.linkedin.com\/company\/accenture"
+        },
+        {
+            "type": "Swagger",
+            "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-definitions\/swagger\/2624-2019-09-02-18-30-33.json"
+        },
+        {
+            "type": "Privacy",
+            "url": "https:\/\/www.accenture.com\/us-en\/about\/privacy-policy"
+        },
+        {
+            "type": "Terms of Service",
+            "url": "https:\/\/www.accenture.com\/us-en\/about\/terms-of-use"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/Accenture"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/accenturelabs"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/accenture.com"
+        },
+        {
+            "type": "Youtube",
+            "url": "https:\/\/www.youtube.com\/accenture"
+        }
+    ]
+}
