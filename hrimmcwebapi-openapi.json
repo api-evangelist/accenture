@@ -1,0 +1,77 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "v1",
+        "title": "HRIMMCWebApi",
+        "description": "",
+        "termsOfService": "http:\/\/exmple.com\/license\/"
+    },
+    "servers": [
+        "httpsttrservices-dev.quality.accenture.com\/HRIMMC"
+    ],
+    "paths": {
+        "\/hriactiverecordpercontract\/{contractNo}": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "GetById",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "contractNo",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "\/hriactiverecordperfinancialcustomer\/{financialcustomer}": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "GetById",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "financialcustomer",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        },
+        "\/hriactiverecordpermasterclient\/{masterclient}": {
+            "get": {
+                "summary": "",
+                "description": "",
+                "operationId": "GetById",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "masterclient",
+                        "in": "path",
+                        "description": ""
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
