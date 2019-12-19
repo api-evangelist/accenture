@@ -1,0 +1,106 @@
+{
+    "id": "313530ea630031827d9fd5edad287074",
+    "name": "HRIMMCWebApi",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "8d355050735f7ea1248288c60ee5f824",
+            "name": "",
+            "url": "httpsttrservices-dev.quality.accenture.com\/HRIMMC\/hriactiverecordpercontract\/{contractNo}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "contractNo",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "313530ea630031827d9fd5edad287074",
+            "rawModeData": ""
+        },
+        {
+            "id": "b1b34bcd2c0f9a130d7aebc732f39359",
+            "name": "",
+            "url": "httpsttrservices-dev.quality.accenture.com\/HRIMMC\/hriactiverecordperfinancialcustomer\/{financialcustomer}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "financialcustomer",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "313530ea630031827d9fd5edad287074",
+            "rawModeData": ""
+        },
+        {
+            "id": "badbb986d00e54702548cf5d3aafea46",
+            "name": "",
+            "url": "httpsttrservices-dev.quality.accenture.com\/HRIMMC\/hriactiverecordpermasterclient\/{masterclient}",
+            "description": "",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "masterclient",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "313530ea630031827d9fd5edad287074",
+            "rawModeData": ""
+        }
+    ]
+}
