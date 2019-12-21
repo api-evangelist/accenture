@@ -1,5 +1,5 @@
 {
-    "id": "313530ea630031827d9fd5edad287074",
+    "id": "df4e8e665d849c8e078409dfc3bad862",
     "name": "HRIMMCWebApi",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "8d355050735f7ea1248288c60ee5f824",
+            "id": "5ee61e0c9eccee226bc054e538c4476c",
             "name": "",
             "url": "httpsttrservices-dev.quality.accenture.com\/HRIMMC\/hriactiverecordpercontract\/{contractNo}",
             "description": "",
@@ -37,11 +37,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "313530ea630031827d9fd5edad287074",
+            "collectionId": "df4e8e665d849c8e078409dfc3bad862",
             "rawModeData": ""
         },
         {
-            "id": "b1b34bcd2c0f9a130d7aebc732f39359",
+            "id": "dd1f0af3e6534d84d2959e3ad8fa8922",
             "name": "",
             "url": "httpsttrservices-dev.quality.accenture.com\/HRIMMC\/hriactiverecordperfinancialcustomer\/{financialcustomer}",
             "description": "",
@@ -68,11 +68,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "313530ea630031827d9fd5edad287074",
+            "collectionId": "df4e8e665d849c8e078409dfc3bad862",
             "rawModeData": ""
         },
         {
-            "id": "badbb986d00e54702548cf5d3aafea46",
+            "id": "f682af90fd05a7ea2b3a72b53b7ad0e9",
             "name": "",
             "url": "httpsttrservices-dev.quality.accenture.com\/HRIMMC\/hriactiverecordpermasterclient\/{masterclient}",
             "description": "",
@@ -99,7 +99,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "313530ea630031827d9fd5edad287074",
+            "collectionId": "df4e8e665d849c8e078409dfc3bad862",
             "rawModeData": ""
         }
     ]
