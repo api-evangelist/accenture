@@ -1,0 +1,39 @@
+specification: API Commons Plans
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/Plans
+provider: Accenture
+providerId: accenture
+created: '2026-05-16'
+modified: '2026-05-16'
+reconciled: false
+tags:
+  - Consulting
+  - Professional Services
+description: Accenture is a professional-services company. It does not publish a public developer API or developer portal; commercial engagements are priced as consulting, systems-integration, or managed-services contracts. Any APIs Accenture builds are client- or partner-branded and live outside an Accenture developer surface.
+notes: No public developer API — placeholder only. Pricing is engagement-based and not consumable through an API plan.
+sources:
+  - https://www.accenture.com/
+plans:
+  - id: accenture-engagement
+    name: Consulting / Managed-Services Engagement
+    type: enterprise
+    description: Accenture sells time, materials, fixed-price projects, and managed-services subscriptions through bilateral contracts. There is no public API plan.
+    entries:
+      - label: Engagement contract
+        name: engagement_contract
+        type: subscription
+        metric: contract
+        limit: -1
+        timeFrame: year
+        geo: global
+        unit: 1
+        price: contact Accenture account team
+        userMultiplied: false
+    elements:
+      - name: Consulting engagements
+      - name: Managed-services engagements
+      - name: Industry solutions
+      - name: No public developer API
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

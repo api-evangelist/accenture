@@ -1,0 +1,29 @@
+specification: API Commons Rate Limits
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/RateLimits
+provider: Accenture
+providerId: accenture
+created: '2026-05-16'
+modified: '2026-05-16'
+reconciled: false
+tags:
+  - Consulting
+  - Professional Services
+  - Rate Limiting
+description: Accenture does not publish a public developer API; therefore no public rate limits exist. Any rate limits on client-specific APIs Accenture builds are owned by the client.
+notes: No public developer API — placeholder only.
+sources:
+  - https://www.accenture.com/
+responseCodes:
+  throttled: 429
+limits:
+  - name: No public rate limits
+    scope: account
+    metric: not_applicable
+    limit: not applicable
+policies:
+  - name: Engagement-defined
+    description: Throughput and SLAs on any Accenture-built API are negotiated inside the client engagement contract.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

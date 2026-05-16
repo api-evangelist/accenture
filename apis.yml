@@ -9,9 +9,68 @@ tags:
   - Professional Services
 description: 'A global professional services company providing consulting, technology, and outsourcing services. Serves clients across more than 40 industries in over 120 countries with expertise in digital transformation, cloud, and AI.'
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
 apis: []
 common:
   - type: Website
     url: https://www.accenture.com/
+  - type: Careers
+    url: https://www.accenture.com/us-en/careers
+  - type: AIPlatform
+    url: https://www.accenture.com/us-en/services/data-ai/ai-refinery-platform
+  - type: Features
+    data:
+      - name: AI Refinery Platform
+        description: Accenture's reference platform for building and deploying generative-AI agents and pipelines for clients; delivered as engagements, not as a public API product.
+      - name: Industrial AI
+        description: Industry-specific AI accelerators packaged for client deployments across manufacturing, energy, life sciences, and financial services.
+      - name: Cloud & Data Services
+        description: Migration, modernization, and managed services for hyperscale cloud and data platforms (AWS, Azure, GCP, Snowflake, Databricks).
+      - name: myConcerto
+        description: Internal SAP-focused delivery platform Accenture uses on client SAP S/4HANA transformations; not a public API.
+      - name: SynOps
+        description: Accenture's intelligent-operations platform used inside managed-services engagements.
+  - type: UseCases
+    data:
+      - name: Digital Transformation Programs
+        description: Long-form consulting and systems-integration engagements modernizing client landscapes end-to-end.
+      - name: Generative AI Adoption
+        description: Standing up enterprise generative-AI capabilities, including foundation-model selection, RAG patterns, governance, and operations.
+      - name: Managed Services
+        description: Run-the-business operations of applications, infrastructure, and security on behalf of clients.
+      - name: Industry Solutions
+        description: Industry-specific solutions in financial services, life sciences, public sector, energy, and consumer goods.
+  - type: Authentication
+    data:
+      - name: No Public API
+        description: Accenture does not publish a public developer portal or external developer APIs. Accenture builds client-specific APIs as part of engagements and contributes to a wide range of cloud vendor and partner ecosystems; the resulting APIs live with each client or partner, not on an Accenture-branded developer surface.
+  - type: Compliance
+    data:
+      - name: ISO 27001
+        description: Information Security Management System certification across delivery centres.
+      - name: SOC 1 / SOC 2
+        description: System and Organization Controls reports for managed-services and outsourcing engagements.
+      - name: GDPR
+        description: European General Data Protection Regulation compliance for personal data handled in delivery.
+      - name: HIPAA
+        description: Health Insurance Portability and Accountability Act compliance for U.S. healthcare client work.
+      - name: FedRAMP (via partners)
+        description: Accenture Federal Services operates within FedRAMP-authorized environments for U.S. federal clients.
+  - type: Integrations
+    data:
+      - name: AWS
+        description: Strategic partnership delivering AWS migration, modernization, and AI services for joint clients.
+      - name: Microsoft Azure
+        description: Strategic partnership including the Avanade joint venture for Microsoft-centric delivery.
+      - name: Google Cloud
+        description: Strategic partnership for Google Cloud and data / AI implementations.
+      - name: SAP
+        description: One of the largest global SAP implementation partners with deep S/4HANA capability.
+      - name: Salesforce
+        description: Top Salesforce implementation partner across industries.
+      - name: NVIDIA
+        description: Joint go-to-market on enterprise generative-AI built on NVIDIA AI Enterprise.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
