@@ -22,7 +22,7 @@ tags:
 description: 'A global professional services company providing consulting, technology, and outsourcing services. Serves clients across more than 40 industries in over 120 countries with expertise in digital transformation, cloud, and AI.'
 created: '2026-05-05'
 modified: '2026-05-16'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis: []
 common:
   - type: DomainSecurity
