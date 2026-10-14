@@ -1,9 +1,12 @@
 generated: '2026-10-13'
 method: searched
 checked:
+- guidewire/integrations/guidewire-integration-edges.yml
 - https://aws.amazon.com/marketplace/
 - https://azuremarketplace.microsoft.com/
 - https://vendor-list.consensu.org/v3/vendor-list.json
+- palo-alto-networks/integrations/palo-alto-networks-integration-edges.yml
+- workday/integrations/workday-integration-edges.yml
 marketplace_apps: []
 edges:
 - partner_name: AWS Marketplace
@@ -116,3 +119,75 @@ edges:
     detected: '2026-10-14'
   detected_by: sweep-adtech.py
   detected: '2026-10-14'
+- partner_name: Guidewire (own)
+  partner: guidewire
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://marketplace.guidewire.com/product/01tKj00000PuQPHIA3/01tKj00000PuQPHIA3
+  mirror_of: guidewire/integrations/guidewire-integration-edges.yml
+  apps:
+  - Norway Travel Insurance Product Model by Accenture
+  - Accenture Cloud Data Migration Solution
+  - Accenture Legacy Product Migration Solution
+  listing_count: 3
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
+  category: Extensions; PolicyCenter;Product Models (APD)
+  badges:
+  - GO Products
+  - 'Partner tier: Global Premier'
+  - Ready for Guidewire
+- partner_name: Palo Alto Networks (own)
+  partner: palo-alto-networks
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://cortex.marketplace.pan.dev/marketplace/details/AccentureCTI/
+  mirror_of: palo-alto-networks/integrations/palo-alto-networks-integration-edges.yml
+  apps:
+  - Accenture CTI v2
+  - Accenture CTI Feed
+  listing_count: 2
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
+  category: Data Enrichment & Threat Intelligence
+  badges:
+  - support:partner
+- partner_name: Workday (own)
+  partner: workday
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://marketplace.workday.com/apps/441612/feedback-coach
+  mirror_of: workday/integrations/workday-integration-edges.yml
+  apps:
+  - Feedback Coach
+  - Skills Accelerator
+  - Spend Analytics
+  - Payment Intercept
+  - Colleague Connect
+  - Workday Financials Industry Accelerator for Retail
+  listing_count: 6
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
+  category: Region & Country
+  badges:
+  - Responsible AI Solution
+  - Approved Partner Solution
+source:
+- guidewire/integrations/guidewire-integration-edges.yml
+- palo-alto-networks/integrations/palo-alto-networks-integration-edges.yml
+- workday/integrations/workday-integration-edges.yml
