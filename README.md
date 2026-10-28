@@ -1,4 +1,4 @@
-# Accenture (accenture)
+# Accenture
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,77 +66,97 @@
 
 A global professional services company providing consulting, technology, and outsourcing services. Serves clients across more than 40 industries in over 120 countries with expertise in digital transformation, cloud, and AI.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/accenture/refs/heads/main/apis.yml)
+**Areas:** Consulting · Technology · Professional Services · A2A
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=accenture-api-evangelist&utm_content=repo)
+## Accenture on APIs.io
 
-## Tags:
+Everything profiled for Accenture is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/accenture/](https://apis.io/providers/accenture/)** — or go straight to one of the APIs or properties below.
 
- - Consulting, Technology, Professional Services
+### Published properties
 
-## Timestamps
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- **Created:** 2026-05-05
-- **Modified:** 2026-05-16
+#### Security (1)
 
-## APIs
+Authentication, trust centre, and vulnerability disclosure.
 
-Accenture does not publish a public developer API or developer portal. Accenture builds client-specific APIs as part of engagements and partners with the major hyperscalers and ISVs; resulting APIs live with each client or partner, not on an Accenture-branded developer surface.
+- [Accenture Domain Security](https://apis.io/security/accenture/accenture-domain-security/)
 
-## Common Properties
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Accenture Plans Pricing](https://apis.io/plans/accenture/accenture-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Accenture Rate Limits](https://apis.io/rate-limits/accenture/accenture-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Accenture Finops](https://apis.io/finops/accenture/accenture-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.accenture.com/)
-- [Careers](https://www.accenture.com/us-en/careers)
-- [AIPlatform](https://www.accenture.com/us-en/services/data-ai/ai-refinery-platform)
+- [Blog](https://www.accenture.com/en/insights)
+- [GitHub](https://github.com/accenture)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| AI Refinery Platform | Accenture's reference platform for building and deploying generative-AI agents and pipelines for clients; delivered as engagements, not as a public API product. |
-| Industrial AI | Industry-specific AI accelerators packaged for client deployments across manufacturing, energy, life sciences, and financial services. |
-| Cloud & Data Services | Migration, modernization, and managed services for hyperscale cloud and data platforms (AWS, Azure, GCP, Snowflake, Databricks). |
-| myConcerto | Internal SAP-focused delivery platform Accenture uses on client SAP S/4HANA transformations; not a public API. |
-| SynOps | Accenture's intelligent-operations platform used inside managed-services engagements. |
+**Kin Score 10.7** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 39.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 14.3 |
+| Access clarity | 13.2 |
 
-| Name | Description |
-|------|-------------|
-| Digital Transformation Programs | Long-form consulting and systems-integration engagements modernizing client landscapes end-to-end. |
-| Generative AI Adoption | Standing up enterprise generative-AI capabilities, including foundation-model selection, RAG patterns, governance, and operations. |
-| Managed Services | Run-the-business operations of applications, infrastructure, and security on behalf of clients. |
-| Industry Solutions | Industry-specific solutions in financial services, life sciences, public sector, energy, and consumer goods. |
+**Agent readiness 3.1** — human-only
 
-## Authentication
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| No Public API | Accenture does not publish a public developer portal or external developer APIs. |
+**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
 
-## Compliance
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/accenture/](https://apis.io/providers/accenture/).
 
-| Name | Description |
-|------|-------------|
-| ISO 27001 | Information Security Management System certification across delivery centres. |
-| SOC 1 / SOC 2 | System and Organization Controls reports for managed-services and outsourcing engagements. |
-| GDPR | European General Data Protection Regulation compliance for personal data handled in delivery. |
-| HIPAA | Health Insurance Portability and Accountability Act compliance for U.S. healthcare client work. |
-| FedRAMP (via partners) | Accenture Federal Services operates within FedRAMP-authorized environments for U.S. federal clients. |
+## How this profile is made
 
-## Integrations
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-| Name | Description |
-|------|-------------|
-| AWS | Strategic partnership delivering AWS migration, modernization, and AI services for joint clients. |
-| Microsoft Azure | Strategic partnership including the Avanade joint venture for Microsoft-centric delivery. |
-| Google Cloud | Strategic partnership for Google Cloud and data / AI implementations. |
-| SAP | One of the largest global SAP implementation partners with deep S/4HANA capability. |
-| Salesforce | Top Salesforce implementation partner across industries. |
-| NVIDIA | Joint go-to-market on enterprise generative-AI built on NVIDIA AI Enterprise. |
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Accenture: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-## Maintainers
+## Open an issue
 
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/accenture/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
